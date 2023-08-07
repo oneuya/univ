@@ -1,0 +1,1066 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>대학내일</title>
+
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+
+
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js" integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script src="./assets/js/main.js"></script>
+    <script src="./assets/js/lucid.js"></script>
+
+</head>
+
+<body>
+    
+    <div class="body-bg">
+        <header class="header">
+            <section class="sc-sticky">
+                <div class="fix-area">
+                        <nav class="connexion">
+                            <div class="connextion-inner">
+                                <a href="">
+                                    <div class="nav-icon">
+                                        <div class="arrow">
+                                            <svg height="100%" viewBox="0 0 25 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path fill-rule="evenodd" clip-rule="evenodd" d="M23.9492 10.5236C23.9492 5.53378 19.9036 1.48859 14.9136 1.48859C9.92362 1.48859 5.87798 5.53378 5.87798 10.5236C5.87798 15.5134 9.92362 19.5586 14.9136 19.5586C19.9036 19.5586 23.9492 15.5134 23.9492 10.5236ZM14.9136 20.5586C20.4558 20.5586 24.9492 16.0658 24.9492 10.5236C24.9492 4.98141 20.4558 0.488594 14.9136 0.488593C9.37142 0.488593 4.87798 4.98141 4.87798 10.5236C4.87798 16.0658 9.37142 20.5586 14.9136 20.5586Z" fill=""></path>
+                                                <path fill-rule="evenodd" clip-rule="evenodd" d="M15.4638 7.0234L18.6458 10.2054C18.8411 10.4006 18.8411 10.7172 18.6458 10.9125L15.4638 14.0945C15.2686 14.2897 14.952 14.2897 14.7567 14.0945C14.5615 13.8992 14.5615 13.5826 14.7567 13.3874L17.0852 11.0589L0 11.0589L0 10.0589L17.0852 10.0589L14.7567 7.73051C14.5615 7.53524 14.5615 7.21866 14.7567 7.0234C14.952 6.82814 15.2686 6.82814 15.4638 7.0234Z" fill="currentcolor"></path>
+                                            </svg>
+                                        </div>
+                                        <div class="circle">
+                                            <svg height="100%" viewBox="0 0 25 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path fill-rule="evenodd" clip-rule="evenodd" d="M23.9492 10.5236C23.9492 5.53378 19.9036 1.48859 14.9136 1.48859C9.92362 1.48859 5.87798 5.53378 5.87798 10.5236C5.87798 15.5134 9.92362 19.5586 14.9136 19.5586C19.9036 19.5586 23.9492 15.5134 23.9492 10.5236ZM14.9136 20.5586C20.4558 20.5586 24.9492 16.0658 24.9492 10.5236C24.9492 4.98141 20.4558 0.488594 14.9136 0.488593C9.37142 0.488593 4.87798 4.98141 4.87798 10.5236C4.87798 16.0658 9.37142 20.5586 14.9136 20.5586Z" fill="currentcolor"></path>
+                                                <path fill-rule="evenodd" clip-rule="evenodd" d="M15.4638 7.0234L18.6458 10.2054C18.8411 10.4006 18.8411 10.7172 18.6458 10.9125L15.4638 14.0945C15.2686 14.2897 14.952 14.2897 14.7567 14.0945C14.5615 13.8992 14.5615 13.5826 14.7567 13.3874L17.0852 11.0589L0 11.0589L0 10.0589L17.0852 10.0589L14.7567 7.73051C14.5615 7.53524 14.5615 7.21866 14.7567 7.0234C14.952 6.82814 15.2686 6.82814 15.4638 7.0234Z" fill=""></path>
+                                            </svg>
+                                        </div>
+                                    </div>
+                                    <p>CONNECTION</p>
+                                </a>
+                                <button class="nav-menu">
+                                    <div class="menu-line top"></div>
+                                    <div class="menu-line mid"></div>
+                                    <div class="menu-line bottom"></div>
+                                </button>
+                            </div>
+                        </nav>
+                       
+                </div>
+                <div class="fix-area-mobile">
+                    <button class="nav-menu">
+                        <div class="menu-line top"></div>
+                        <div class="menu-line mid"></div>
+                        <div class="menu-line bottom"></div>
+                    </button>
+                </div>
+                <div class="side-menu">
+                    <div class="menu-area">
+                        <div class="menu-left">
+                            <h2 class="logo"><a href=""><img src="./assets/img/main-logo.png" alt=""></a>
+                            </h2>
+                            <a href="" class="title">
+                                <p>We've got an answer</p><br>
+                                <span>
+                                    답을 찾아내는<br>
+                                    종합 마케팅 에이전시<br>
+                                    대학내일입니다.
+                                </span>
+                            </a>
+                            <ul class="menu-list">
+                                <li class="menu-item">
+                                    <a href="" class="on">대학내일</a>
+                                    <ul class="sub-list">
+                                        <li class="sub-item"><a href="">대학내일</a></li>
+                                        <li class="sub-item"><a href="">대학내일ES</a></li>
+                                    </ul>
+                                </li>
+                                <li class="menu-item">
+                                    <a href="">솔루션</a>
+                                    <ul class="sub-list">
+                                        <li class="sub-item"><a href="">마케팅</a></li>
+                                        <li class="sub-item"><a href="">미디어</a></li>
+                                        <li class="sub-item"><a href="">연구∙컨설팅</a></li>
+                                    </ul>
+                                </li>
+                                <li class="menu-item">
+                                    <a href="">인사이트</a>
+                                    <ul class="sub-list">
+                                        <li class="sub-item"><a href="">T.CON</a></li>
+                                        <li class="sub-item"><a href="">강연</a></li>
+                                        <li class="sub-item"><a href="">뉴스레터</a></li>
+                                    </ul>
+                                </li>
+                                <li class="menu-item">
+                                    <a href="">채용</a>
+                                      <ul class="sub-list">
+                                        <li class="sub-item"><a href="">인재채용</a></li>
+                                        <li class="sub-item"><a href="">HR공시</a></li>
+                                    </ul>
+                                </li>
+                                <li class="menu-item">
+                                    <a href="">문의</a>
+                                      <ul class="sub-list">
+                                        <li class="sub-item"><a href="">Contact</a></li>
+                                        <li class="sub-item"><a href="">공지사항</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                            <ul class="menu-list-m">
+                                <li class="menu-item">
+                                    <a href="">대학내일</a>
+                                    <ul class="sub-list">
+                                        <li class="sub-item"><a href="">대학내일</a></li>
+                                        <li class="sub-item"><a href="">대학내일ES</a></li>
+                                    </ul>
+                                </li>
+                                <li class="menu-item">
+                                    <a href="">솔루션</a>
+                                    <ul class="sub-list">
+                                        <li class="sub-item"><a href="">마케팅</a></li>
+                                        <li class="sub-item"><a href="">미디어</a></li>
+                                        <li class="sub-item"><a href="">연구∙컨설팅</a></li>
+                                    </ul>
+                                </li>
+                                <li class="menu-item">
+                                    <a href="">인사이트</a>
+                                    <ul class="sub-list">
+                                        <li class="sub-item"><a href="">T.CON</a></li>
+                                        <li class="sub-item"><a href="">강연</a></li>
+                                        <li class="sub-item"><a href="">뉴스레터</a></li>
+                                    </ul>
+                                </li>
+                                <li class="menu-item">
+                                    <a href="">채용</a>
+                                      <ul class="sub-list">
+                                        <li class="sub-item"><a href="">인재채용</a></li>
+                                        <li class="sub-item"><a href="">HR공시</a></li>
+                                    </ul>
+                                </li>
+                                <li class="menu-item">
+                                    <a href="">문의</a>
+                                      <ul class="sub-list">
+                                        <li class="sub-item"><a href="">Contact</a></li>
+                                        <li class="sub-item"><a href="">공지사항</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="menu-right">
+                                <div class="img-box">
+                                    <video autoplay muted loop>
+                                        <source src="./assets/img/main-video1.mp4">
+                                    </video>
+                                    <div class="bg"></div>
+                                </div>
+                    
+                        </div>
+                        <nav class="connexion">
+                            <div class="connextion-inner">
+                                <a href="">
+                                    <div class="nav-icon">
+                                        <div class="arrow">
+                                            <svg height="100%" viewBox="0 0 25 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path fill-rule="evenodd" clip-rule="evenodd" d="M23.9492 10.5236C23.9492 5.53378 19.9036 1.48859 14.9136 1.48859C9.92362 1.48859 5.87798 5.53378 5.87798 10.5236C5.87798 15.5134 9.92362 19.5586 14.9136 19.5586C19.9036 19.5586 23.9492 15.5134 23.9492 10.5236ZM14.9136 20.5586C20.4558 20.5586 24.9492 16.0658 24.9492 10.5236C24.9492 4.98141 20.4558 0.488594 14.9136 0.488593C9.37142 0.488593 4.87798 4.98141 4.87798 10.5236C4.87798 16.0658 9.37142 20.5586 14.9136 20.5586Z" fill=""></path>
+                                                <path fill-rule="evenodd" clip-rule="evenodd" d="M15.4638 7.0234L18.6458 10.2054C18.8411 10.4006 18.8411 10.7172 18.6458 10.9125L15.4638 14.0945C15.2686 14.2897 14.952 14.2897 14.7567 14.0945C14.5615 13.8992 14.5615 13.5826 14.7567 13.3874L17.0852 11.0589L0 11.0589L0 10.0589L17.0852 10.0589L14.7567 7.73051C14.5615 7.53524 14.5615 7.21866 14.7567 7.0234C14.952 6.82814 15.2686 6.82814 15.4638 7.0234Z" fill="currentcolor"></path>
+                                            </svg>
+                                        </div>
+                                        <div class="circle">
+                                            <svg height="100%" viewBox="0 0 25 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path fill-rule="evenodd" clip-rule="evenodd" d="M23.9492 10.5236C23.9492 5.53378 19.9036 1.48859 14.9136 1.48859C9.92362 1.48859 5.87798 5.53378 5.87798 10.5236C5.87798 15.5134 9.92362 19.5586 14.9136 19.5586C19.9036 19.5586 23.9492 15.5134 23.9492 10.5236ZM14.9136 20.5586C20.4558 20.5586 24.9492 16.0658 24.9492 10.5236C24.9492 4.98141 20.4558 0.488594 14.9136 0.488593C9.37142 0.488593 4.87798 4.98141 4.87798 10.5236C4.87798 16.0658 9.37142 20.5586 14.9136 20.5586Z" fill="currentcolor"></path>
+                                                <path fill-rule="evenodd" clip-rule="evenodd" d="M15.4638 7.0234L18.6458 10.2054C18.8411 10.4006 18.8411 10.7172 18.6458 10.9125L15.4638 14.0945C15.2686 14.2897 14.952 14.2897 14.7567 14.0945C14.5615 13.8992 14.5615 13.5826 14.7567 13.3874L17.0852 11.0589L0 11.0589L0 10.0589L17.0852 10.0589L14.7567 7.73051C14.5615 7.53524 14.5615 7.21866 14.7567 7.0234C14.952 6.82814 15.2686 6.82814 15.4638 7.0234Z" fill=""></path>
+                                            </svg>
+                                        </div>
+                                    </div>
+                                    <p>CONNECTION</p>
+                                </a>
+                                <button class="nav-menu">
+                                    <div class="menu-line top"></div>
+                                    <div class="menu-line mid"></div>
+                                    <div class="menu-line bottom"></div>
+                                </button>
+                            </div>
+                        </nav>
+                        <div class="connexion-mobile">
+                            <button class="nav-menu">
+                                <div class="menu-line top"></div>
+                                <div class="menu-line mid"></div>
+                                <div class="menu-line bottom"></div>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="sticky-area">
+                    <h1 class="blind">대학내일
+                    </h1>
+                    <div class="top-logo">
+                        <p>세대와 시대를 잘 읽는<br>
+                        마케팅 전문가 그룹</p>
+                    </div>
+                    <div class="main-logo"><img src="./assets/img/main-logo.png" alt="">
+                    </div>
+                    <div class="main-desc">We've got an <span>answer</span>
+                    </div>
+                </div>
+            </section>
+        </header>
+        <main class="main">
+            <section class="sc-intro">
+                <div class="sticky-area">
+                    <div class="intro-area">
+                        <div class="intro-overlay">
+                            <div class="intro-box">
+                                <div class="img-box">
+                                    <video autoplay muted loop>
+                                        <source src="./assets/img/main-video1.mp4">
+                                    </video>
+                                </div>
+                            </div>
+                            <div class="text-box">
+                                <h2>세대와 시대를 잘 읽는<br>
+                                    마케팅 전문가 그룹</h2>
+                                <img src="./assets/img/logo.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+   
+            </section>
+            <section class="sc-intro-mobile">
+                <div class="intro-box">
+                        <div class="img-box">
+                            <div class="overlay"></div>
+                            <video autoplay muted loop>
+                                <source src="./assets/img/main-video1.mp4">
+                            </video>
+                        </div>
+                    <div class="text-box">
+                        <h2>세대와 시대를 잘 읽는<br>
+                            마케팅 전문가 그룹</h2>
+                            <img src="./assets/img/logo.png" alt="">
+                    </div>
+                </div>
+            </section>
+            <section class="sc-event">
+                <h2 class="title">Solution</h2>
+                <div class="event-area">
+                    <a href="" class="event-box">
+                        <div class="img-box">
+                            <img src="./assets/img/marketing.jpg" alt="">
+                            <div class="hover">
+                                <div class="plus">
+                                    <span>
+                                        <p>More
+                                        </p>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 29.541 22.323">
+                                            <g id="Group_44" data-name="Group 44" transform="translate(0 1.014)">
+                                              <path id="Path_1" data-name="Path 1" d="M115.445,20.633l9.311-10.148L115.445.338" transform="translate(-97.25 -0.338)" fill="none" stroke="currentColor" stroke-miterlimit="10" stroke-width="2"></path>
+                                              <line id="Line_1" data-name="Line 1" x1="27.506" transform="translate(0 10.148)" fill="none" stroke="currentColor" stroke-miterlimit="10" stroke-width="2"></line>
+                                            </g>
+                                        </svg>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="text-box">
+                            <p>Marketing</p>
+                            <strong>마케팅</strong>
+                        </div>
+                    </a>
+                    <a href="" class="event-box">
+                        <div class="img-box">
+                            <img src="./assets/img/media.png" alt="">
+                            <div class="hover">
+                                <div class="plus">
+                                    <span>
+                                        <p>More
+                                        </p>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 29.541 22.323">
+                                            <g id="Group_44" data-name="Group 44" transform="translate(0 1.014)">
+                                              <path id="Path_1" data-name="Path 1" d="M115.445,20.633l9.311-10.148L115.445.338" transform="translate(-97.25 -0.338)" fill="none" stroke="currentColor" stroke-miterlimit="10" stroke-width="2"></path>
+                                              <line id="Line_1" data-name="Line 1" x1="27.506" transform="translate(0 10.148)" fill="none" stroke="currentColor" stroke-miterlimit="10" stroke-width="2"></line>
+                                            </g>
+                                        </svg>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="text-box">
+                            <p>Media</p>
+                            <strong>미디어</strong>
+                        </div>
+                    </a>
+                    <a href="" class="event-box">
+                        <div class="img-box">
+                            <img src="./assets/img/work.png" alt="">
+                            <div class="hover">
+                                <div class="plus">
+                                    <span>
+                                        <p>More
+                                        </p>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 29.541 22.323">
+                                            <g id="Group_44" data-name="Group 44" transform="translate(0 1.014)">
+                                              <path id="Path_1" data-name="Path 1" d="M115.445,20.633l9.311-10.148L115.445.338" transform="translate(-97.25 -0.338)" fill="none" stroke="currentColor" stroke-miterlimit="10" stroke-width="2"></path>
+                                              <line id="Line_1" data-name="Line 1" x1="27.506" transform="translate(0 10.148)" fill="none" stroke="currentColor" stroke-miterlimit="10" stroke-width="2"></line>
+                                            </g>
+                                        </svg>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="text-box">
+                            <p>Research∙Consulting</p>
+                            <strong>연구∙컨설팅</strong>
+                        </div>
+                    </a>
+                </div>
+                <div class="link-box">
+                    <a href="">
+                        <div class="link">
+                            <p>함께하기</p>
+                            <svg width="16" height="10" viewBox="0 0 16 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M13.3395 5.80676L10.0601 8.94555L10.7516 9.66797L15.3081 5.30676L10.7516 0.945551L10.0601 1.66797L13.3395 4.80676H0.584961V5.80676H13.3395Z" fill="currentcolor"></path>
+                            </svg>
+                        </div>
+                        <div class="color">
+                            <div class="link">
+                                <p>함께하기</p>
+                                <svg width="16" height="10" viewBox="0 0 16 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M13.3395 5.80676L10.0601 8.94555L10.7516 9.66797L15.3081 5.30676L10.7516 0.945551L10.0601 1.66797L13.3395 4.80676H0.584961V5.80676H13.3395Z" fill="currentcolor"></path>
+                                </svg>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </section>
+            <section class="sc-event-mobile">
+                <h2 class="title">Solution
+                </h2>
+                <div class="swiper event-swiper">
+                    <ul class="swiper-wrapper">
+                        <li class="swiper-slide">
+                            <div class="img-box">
+                                <img src="./assets/img/marketing.jpg" alt="">
+                            </div>
+                            <div class="text-box">
+                                <p>Marketing</p>
+                                <strong>마케팅</strong>
+                            </div>
+                        </li>
+                        <li class="swiper-slide">
+                            <div class="img-box">
+                                <img src="./assets/img/media.png" alt="">
+                            </div>
+                            <div class="text-box">
+                                <p>Media</p>
+                                <strong>미디어</strong>
+                            </div>
+                        </li>
+                        <li class="swiper-slide">
+                            <div class="img-box">
+                                <img src="./assets/img/work.png" alt="">
+                            </div>
+                            <div class="text-box">
+                                <p>Research∙Consulting</p>
+                                <strong>연구∙컨설팅</strong>
+                            </div>
+                        </li>
+                    </ul>
+                    <div class="swiper-bottom">
+                        <div class="swiper-control">
+                            <div class="swiper-btn">
+                                <div class="swiper-button-next">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 29.541 22.323">
+                                        <g id="Group_44" data-name="Group 44" transform="translate(0 1.014)">
+                                          <path id="Path_1" data-name="Path 1" d="M115.445,20.633l9.311-10.148L115.445.338" transform="translate(-97.25 -0.338)" fill="none" stroke="currentColor" stroke-miterlimit="10" stroke-width="3"></path>
+                                          <line id="Line_1" data-name="Line 1" x1="27.506" transform="translate(0 10.148)" fill="none" stroke="currentColor" stroke-miterlimit="10" stroke-width="3"></line>
+                                        </g>
+                                      </svg>
+                                </div>
+                                <div class="swiper-button-prev">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 29.541 22.323">
+                                        <g id="Group_44" data-name="Group 44" transform="translate(0 1.014)">
+                                          <path id="Path_1" data-name="Path 1" d="M115.445,20.633l9.311-10.148L115.445.338" transform="translate(-97.25 -0.338)" fill="none" stroke="currentColor" stroke-miterlimit="10" stroke-width="3"></path>
+                                          <line id="Line_1" data-name="Line 1" x1="27.506" transform="translate(0 10.148)" fill="none" stroke="currentColor" stroke-miterlimit="10" stroke-width="3"></line>
+                                        </g>
+                                      </svg>
+                                </div>
+                            </div>
+                            <div class="swiper-scrollbar"></div>
+                        </div>
+                        <div class="link-box">
+                            <a href="">
+                                <div class="link">
+                                    <p>함께하기</p>
+                                    <svg width="16" height="10" viewBox="0 0 16 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M13.3395 5.80676L10.0601 8.94555L10.7516 9.66797L15.3081 5.30676L10.7516 0.945551L10.0601 1.66797L13.3395 4.80676H0.584961V5.80676H13.3395Z" fill="currentcolor"></path>
+                                    </svg>
+                                </div>
+                                <div class="color">
+                                    <div class="link">
+                                        <p>함께하기</p>
+                                        <svg width="16" height="10" viewBox="0 0 16 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M13.3395 5.80676L10.0601 8.94555L10.7516 9.66797L15.3081 5.30676L10.7516 0.945551L10.0601 1.66797L13.3395 4.80676H0.584961V5.80676H13.3395Z" fill="currentcolor"></path>
+                                        </svg>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="sc-membre">
+                <div class="title-area">
+                    <h2 class="title">
+                        <p class="fir">세대와</p>
+                        <p class="sec">시대를 잘 읽는</p>
+                        <div class="change"></div>
+                        <p class="thr">전문가 그룹</p>
+                        
+                    </h2>
+                </div>
+                <div class="sticky-area">
+                    <div class="sticky-box">
+                        <div class="membre-left">
+                            <strong>브랜드를 돕는 솔루션</strong>
+                            <p class="desc">시대 변화의 흐름과 맥락을 적확하게 읽고,<br>
+                            브랜드도 몰랐던 진짜 문제를 정의합니다.</p>
+                            <div class="link-box">
+                                <a href="">
+                                    <div class="link">
+                                        <p>Portfolio</p>
+                                        <svg width="16" height="10" viewBox="0 0 16 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M13.3395 5.80676L10.0601 8.94555L10.7516 9.66797L15.3081 5.30676L10.7516 0.945551L10.0601 1.66797L13.3395 4.80676H0.584961V5.80676H13.3395Z" fill="currentcolor"></path>
+                                        </svg>
+                                    </div>
+                                    <div class="color">
+                                        <div class="link">
+                                            <p>Portfolio</p>
+                                            <svg width="16" height="10" viewBox="0 0 16 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path fill-rule="evenodd" clip-rule="evenodd" d="M13.3395 5.80676L10.0601 8.94555L10.7516 9.66797L15.3081 5.30676L10.7516 0.945551L10.0601 1.66797L13.3395 4.80676H0.584961V5.80676H13.3395Z" fill="currentcolor"></path>
+                                            </svg>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="membre-right">
+                        <ul class="membre-list">
+                            <li class="membre-item">
+                                <strong>브랜드 캠페인</strong>
+                                <p>브랜드 가치를 선명하게 전하는
+                                    크리에이티브로 캠페인 성과를 만듭니다</p>
+                            </li>
+                            <li class="membre-item">
+                                <strong>브랜드 커뮤니케이션</strong>
+                               <p>고유한 브랜드 메시지를
+                                    트렌드 변화에 맞게 표현하고 팬을 만듭니다</p>
+                            </li>
+                            <li class="membre-item">
+                                <strong>브랜드 경험</strong>
+                               <p>타깃의 마음을 움직이는 경험을
+                                    촘촘히 디자인하고 열정적으로 참여시킵니다</p>
+                            </li>
+                            <li class="membre-item">
+                                <strong>참여 마케팅</strong>
+                                <p>타깃을 움직이는 인사이트 기반 설계를 통해
+                                    활동적인 확산을 이끌어냅니다</p>
+                            </li>
+                            <li class="membre-item">
+                                <strong>컨설팅</strong>
+                                <p>타깃 고객과 브랜드의 맥락을 또렷하게 읽고,
+                                    시장을 주도하는 전략을 제안합니다</p>
+                            </li>
+                            <li class="membre-item">
+                                <strong>etc.</strong>
+                                <p>고객과 소비자를 연결합니다
+                                    전문 크리에이터 그룹이 콘텐츠를 제작하고,
+                                    디지털 마케팅 전문가가 다양한 솔루션을 제공합니다</p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+            <section class="sc-nouvelles">
+                <div class="title-area">
+                    <div class="text-box">
+                        <em>Media</em>
+                        <h2>
+                            <p class="fir">진짜 Z세대</p>
+                            <p class="sec">목소리를 담은</p>
+                            <p class="thr">유일한 뉴스레터</p>
+                            <p class="frd"><img src="./assets/img/ci.png" alt=""></p>
+                        </h2>
+                        <div class="link-box blue">
+                            <a href="">
+                                <div class="link">
+                                    <p>구독하기</p>
+                                    <svg width="16" height="10" viewBox="0 0 16 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M13.3395 5.80676L10.0601 8.94555L10.7516 9.66797L15.3081 5.30676L10.7516 0.945551L10.0601 1.66797L13.3395 4.80676H0.584961V5.80676H13.3395Z" fill="currentcolor"></path>
+                                    </svg>
+                                </div>
+                                <div class="color">
+                                    <div class="link">
+                                        <p>구독하기</p>
+                                        <svg width="16" height="10" viewBox="0 0 16 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M13.3395 5.80676L10.0601 8.94555L10.7516 9.66797L15.3081 5.30676L10.7516 0.945551L10.0601 1.66797L13.3395 4.80676H0.584961V5.80676H13.3395Z" fill="currentcolor"></path>
+                                        </svg>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="img-box">
+                        <div class="img"></div>
+                    </div>
+                </div>
+                <div class="partner-area">
+                    <div class="logo-box">
+                        <div class="img">
+                           <!--  <img src="./assets/img/partner.png" alt=""> -->
+                        </div>
+                        <!-- <ul class="logo-list">
+                            <li class="logo-item">
+                                <img src="./assets/img/media4.png" alt="">
+                            </li>
+                            <li class="logo-item">
+                                <img src="./assets/img/media2.jpg" alt="">
+                            </li>
+                            <li class="logo-item">
+                                <img src="./assets/img/media4.png" alt="">
+                            </li>
+                        </ul> -->
+                    </div>
+                    <div class="desc-box">
+                        <strong>MZ세대 맞춤 <br class="m">솔루션</strong>
+                        <p class="desc">SNS, 네이버 카페, 옥외 광고 등을 활용하여, 대학생부터 직장인까지 세대를 아우르는 맞춤 솔루션을 제공합니다.</span>
+                        </p>
+                        <div class="link-box blue">
+                            <a href="">
+                                <div class="link">
+                                    <p>더 알아보기</p>
+                                    <svg width="16" height="10" viewBox="0 0 16 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M13.3395 5.80676L10.0601 8.94555L10.7516 9.66797L15.3081 5.30676L10.7516 0.945551L10.0601 1.66797L13.3395 4.80676H0.584961V5.80676H13.3395Z" fill="currentcolor"></path>
+                                    </svg>
+                                </div>
+                                <div class="color">
+                                    <div class="link">
+                                        <p>더 알아보기</p>
+                                        <svg width="16" height="10" viewBox="0 0 16 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M13.3395 5.80676L10.0601 8.94555L10.7516 9.66797L15.3081 5.30676L10.7516 0.945551L10.0601 1.66797L13.3395 4.80676H0.584961V5.80676H13.3395Z" fill="currentcolor"></path>
+                                        </svg>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="sc-les">
+                <div class="title-area">
+                    <strong>
+                        <p class="fir"><img src="./assets/img/20s-logo.png" alt=""></p>
+                        <p class="sec">대학내일20대연구소는</p>
+                        <p class="thr">통합 마케팅 에이전시<br>대학내일 소속 연구 기관입니다</p>
+                    </strong>
+                    <span class="web">
+                        <p class="fir">국내 최초, 국내 유일의 20대 전문 연구 기관으로</p>
+                        <p class="sec">20대를 중심으로 확장된 세대 연구를 합니다.</p>
+                        <p class="thr">20대를 가장 잘 알기 위해 MZ세대를 집중적으로 연구하고,</p>
+                        <p class="for">X세대와 86세대 연구를 병행합니다.</p>
+                    </span>
+                    <span class="mobile">
+                        <p>국내 최초, 국내 유일의 20대 전문 연구 기관으로
+                            20대를 중심으로 확장된 세대 연구를 합니다.
+                            20대를 가장 잘 알기 위해 MZ세대를 집중적으로 연구하고,
+                            X세대와 86세대 연구를 병행합니다.</p>
+                    </span>
+                    <div class="link-box">
+                        <a href="">
+                            <div class="link">
+                                <p>더 알아보기</p>
+                                <svg width="16" height="10" viewBox="0 0 16 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M13.3395 5.80676L10.0601 8.94555L10.7516 9.66797L15.3081 5.30676L10.7516 0.945551L10.0601 1.66797L13.3395 4.80676H0.584961V5.80676H13.3395Z" fill="currentcolor"></path>
+                                </svg>
+                            </div>
+                            <div class="color">
+                                <div class="link">
+                                    <p>더 알아보기</p>
+                                    <svg width="16" height="10" viewBox="0 0 16 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M13.3395 5.80676L10.0601 8.94555L10.7516 9.66797L15.3081 5.30676L10.7516 0.945551L10.0601 1.66797L13.3395 4.80676H0.584961V5.80676H13.3395Z" fill="currentcolor"></path>
+                                    </svg>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="img-area">
+                        <div class="roll-left">
+                            <ul class="roll-list left">
+                                <li class="roll-item">
+                                    <img src="./assets/img/book1.png" alt="">
+                                </li>
+                                <li class="roll-item">
+                                    <img src="./assets/img/book2.png" alt="">
+                                </li>
+                                <li class="roll-item">
+                                    <img src="./assets/img/book3.png" alt="">
+                                </li>
+                                <li class="roll-item">
+                                    <img src="./assets/img/book4.png" alt="">
+                                </li>
+                                <li class="roll-item">
+                                    <img src="./assets/img/book5.png" alt="">
+                                </li>
+                                <li class="roll-item">
+                                    <img src="./assets/img/book6.png" alt="">
+                                </li>
+                                <li class="roll-item">
+                                    <img src="./assets/img/book7.png" alt="">
+                                </li>
+                                <li class="roll-item">
+                                    <img src="./assets/img/book8.png" alt="">
+                                </li>
+                            </ul>
+                            <ul class="roll-list left">
+                                <li class="roll-item">
+                                    <img src="./assets/img/book1.png" alt="">
+                                </li>
+                                <li class="roll-item">
+                                    <img src="./assets/img/book2.png" alt="">
+                                </li>
+                                <li class="roll-item">
+                                    <img src="./assets/img/book3.png" alt="">
+                                </li>
+                                <li class="roll-item">
+                                    <img src="./assets/img/book4.png" alt="">
+                                </li>
+                                <li class="roll-item">
+                                    <img src="./assets/img/book5.png" alt="">
+                                </li>
+                                <li class="roll-item">
+                                    <img src="./assets/img/book6.png" alt="">
+                                </li>
+                                <li class="roll-item">
+                                    <img src="./assets/img/book7.png" alt="">
+                                </li>
+                                <li class="roll-item">
+                                    <img src="./assets/img/book8.png" alt="">
+                                </li>
+                            </ul>
+                        </div>
+                  
+                        <div class="roll-right">
+                            <ul class="roll-list right">
+                                <li class="roll-item">
+                                    <img src="./assets/img/book1.png" alt="">
+                                </li>
+                                <li class="roll-item">
+                                    <img src="./assets/img/book2.png" alt="">
+                                </li>
+                                <li class="roll-item">
+                                    <img src="./assets/img/book3.png" alt="">
+                                </li>
+                                <li class="roll-item">
+                                    <img src="./assets/img/book4.png" alt="">
+                                </li>
+                                <li class="roll-item">
+                                    <img src="./assets/img/book5.png" alt="">
+                                </li>
+                                <li class="roll-item">
+                                    <img src="./assets/img/book6.png" alt="">
+                                </li>
+                                <li class="roll-item">
+                                    <img src="./assets/img/book7.png" alt="">
+                                </li>
+                                <li class="roll-item">
+                                    <img src="./assets/img/book8.png" alt="">
+                                </li>
+                            </ul>
+                            <ul class="roll-list right">
+                                <li class="roll-item">
+                                    <img src="./assets/img/book1.png" alt="">
+                                </li>
+                                <li class="roll-item">
+                                    <img src="./assets/img/book2.png" alt="">
+                                </li>
+                                <li class="roll-item">
+                                    <img src="./assets/img/book3.png" alt="">
+                                </li>
+                                <li class="roll-item">
+                                    <img src="./assets/img/book4.png" alt="">
+                                </li>
+                                <li class="roll-item">
+                                    <img src="./assets/img/book5.png" alt="">
+                                </li>
+                                <li class="roll-item">
+                                    <img src="./assets/img/book6.png" alt="">
+                                </li>
+                                <li class="roll-item">
+                                    <img src="./assets/img/book7.png" alt="">
+                                </li>
+                                <li class="roll-item">
+                                    <img src="./assets/img/book8.png" alt="">
+                                </li>
+                            </ul>
+                        </div>
+                </div>
+                
+            </section>
+        </main>
+        <footer class="footer">
+            <section class="footer-top">
+                <h2 class="title">밀레니얼-Z세대에<br class="m">관심 있는 분들을 위한<br>
+                    <span>대학내일 뉴스레터</span>구독하기
+                </h2>
+                <div class="form-area">
+                    <div class="form-top">
+                        <div class="form-box">
+                            <form action=""><input type="text" placeholder="이름"></form>
+                        </div>
+                        <div class="form-box">
+                            <form action=""><input type="text" placeholder="회사/소속"></form>
+                        </div>
+                    </div>
+                    <div class="form-box last">
+                        <form action=""><input type="text" placeholder="이메일 주소" class="last">
+                            <div class="link-box">
+                                <a href="">
+                                    <div class="link">
+                                        <svg width="16" height="10" viewBox="0 0 16 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M13.3395 5.80676L10.0601 8.94555L10.7516 9.66797L15.3081 5.30676L10.7516 0.945551L10.0601 1.66797L13.3395 4.80676H0.584961V5.80676H13.3395Z" fill="currentcolor"></path>
+                                        </svg>
+                                    </div>
+                                    <div class="color">
+                                        <div class="link">
+                                            <svg width="16" height="10" viewBox="0 0 16 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M13.3395 5.80676L10.0601 8.94555L10.7516 9.66797L15.3081 5.30676L10.7516 0.945551L10.0601 1.66797L13.3395 4.80676H0.584961V5.80676H13.3395Z" fill="currentcolor"></path>
+                                            </svg>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </section>
+            <section class="footer-bottom">
+                <div class="list-area">
+                    <div class="list-box">
+                        <ul class="footer-list">
+                            <li class="footer-item on">
+                                <div class="title">
+                                    <p>계열사</p>
+                                    <div class="icon">
+                                        <svg height="100%" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M9.28125 0.996094V16.9961" stroke="currentcolor" stroke-linecap="round"></path>
+                                            <path d="M1.28125 8.99609H17.2812" stroke="#143180" stroke-linecap="round"></path>
+                                        </svg>
+                                    </div>
+                                </div>
+                                <ul class="footer-sub">
+                                    <li class="sub-item">
+                                        <a href="">
+                                            NHR
+                                        </a>
+                                    </li>
+                                    <li class="sub-item">
+                                        <a href="">
+                                            51PERCENT
+                                        </a>
+                                    </li>
+                                    <li class="sub-item">
+                                        <a href="">
+                                            OOB Co.
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="footer-item">
+                                <div class="title">
+                                    <p>관계사</p>
+                                    <div class="icon">
+                                        <svg height="100%" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M9.28125 0.996094V16.9961" stroke="currentcolor" stroke-linecap="round"></path>
+                                            <path d="M1.28125 8.99609H17.2812" stroke="#143180" stroke-linecap="round"></path>
+                                        </svg>
+                                    </div>
+                                </div>
+                                <ul class="footer-sub">
+                                    <li class="sub-item">
+                                        <a href="">
+                                            사단법인 오늘은
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="footer-item">
+                                <div class="title">
+                                    <p>리서치/미디어</p>
+                                    <div class="icon">
+                                        <svg height="100%" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M9.28125 0.996094V16.9961" stroke="currentcolor" stroke-linecap="round"></path>
+                                            <path d="M1.28125 8.99609H17.2812" stroke="#143180" stroke-linecap="round"></path>
+                                        </svg>
+                                    </div>
+                                </div>
+                                <ul class="footer-sub">
+                                    <li class="sub-item">
+                                        <a href="">
+                                            20대 연구소
+                                        </a>
+                                    </li>
+                                    <li class="sub-item">
+                                        <a href="">
+                                            Careet
+                                        </a>
+                                    </li>
+                                    <li class="sub-item">
+                                        <a href="">
+                                            직장내일
+                                        </a>
+                                    </li>
+                                    <li class="sub-item">
+                                        <a href="">
+                                            아웃캠퍼스
+                                        </a>
+                                    </li>
+                                    <li class="sub-item">
+                                        <a href="">
+                                            대학내일
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="footer-item">
+                                <div class="title">
+                                    <p>문의</p>
+                                    <div class="icon">
+                                        <svg height="100%" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M9.28125 0.996094V16.9961" stroke="currentcolor" stroke-linecap="round"></path>
+                                            <path d="M1.28125 8.99609H17.2812" stroke="#143180" stroke-linecap="round"></path>
+                                        </svg>
+                                    </div>
+                                </div>
+                                <ul class="footer-sub">
+                                    <li class="sub-item">
+                                        <a href="">
+                                            마케팅 솔루션 광고문의<br>
+                                            (univ@univ.me)
+                                        </a>
+                                    </li>
+                                    <li class="sub-item">
+                                        <a href="">
+                                            기업 제휴 문의<br>
+                                            (partner@univ.me)
+                                        </a>
+                                    </li>
+                                    <li class="sub-item">
+                                        <a href="">
+                                            채용/인사 관련<br>
+                                            (recruit@univ.me)
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="logo-area">
+                        <a href=""><img src="./assets/img/logo.png" alt=""></a>
+                        <div class="number-box">
+                            <div class="num fir">
+                                <strong>대표 전화</strong>
+                                <p>02-735-3800</p>
+                            </div>
+                            <div class="num sec">
+                                <strong>결제 문의</strong>
+                                <p>02-735-9523</p>
+                            </div>
+                            <div class="num thr">
+                                <strong>팩스</strong>
+                                <p>02-735-0005</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="list-mobile">
+                    <div class="list-box">
+                        <ul class="footer-list">
+                            <li class="footer-item">
+                                <div class="title">
+                                    <p>계열사</p>
+                                    <div class="icon">
+                                        <svg height="100%" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M9.28125 0.996094V16.9961" stroke="currentcolor" stroke-linecap="round"></path>
+                                            <path d="M1.28125 8.99609H17.2812" stroke="#143180" stroke-linecap="round"></path>
+                                        </svg>
+                                    </div>
+                                </div>
+                                <ul class="footer-sub">
+                                    <li class="sub-item">
+                                        <a href="">
+                                            NHR
+                                        </a>
+                                    </li>
+                                    <li class="sub-item">
+                                        <a href="">
+                                            51PERCENT
+                                        </a>
+                                    </li>
+                                    <li class="sub-item">
+                                        <a href="">
+                                            OOB Co.
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="footer-item">
+                                <div class="title">
+                                    <p>관계사</p>
+                                    <div class="icon">
+                                        <svg height="100%" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M9.28125 0.996094V16.9961" stroke="currentcolor" stroke-linecap="round"></path>
+                                            <path d="M1.28125 8.99609H17.2812" stroke="#143180" stroke-linecap="round"></path>
+                                        </svg>
+                                    </div>
+                                </div>
+                                <ul class="footer-sub">
+                                    <li class="sub-item">
+                                        <a href="">
+                                            사단법인 오늘은
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="footer-item">
+                                <div class="title">
+                                    <p>리서치/미디어</p>
+                                    <div class="icon">
+                                        <svg height="100%" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M9.28125 0.996094V16.9961" stroke="currentcolor" stroke-linecap="round"></path>
+                                            <path d="M1.28125 8.99609H17.2812" stroke="#143180" stroke-linecap="round"></path>
+                                        </svg>
+                                    </div>
+                                </div>
+                                <ul class="footer-sub">
+                                    <li class="sub-item">
+                                        <a href="">
+                                            20대 연구소
+                                        </a>
+                                    </li>
+                                    <li class="sub-item">
+                                        <a href="">
+                                            Careet
+                                        </a>
+                                    </li>
+                                    <li class="sub-item">
+                                        <a href="">
+                                            직장내일
+                                        </a>
+                                    </li>
+                                    <li class="sub-item">
+                                        <a href="">
+                                            아웃캠퍼스
+                                        </a>
+                                    </li>
+                                    <li class="sub-item">
+                                        <a href="">
+                                            대학내일
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="footer-item">
+                                <div class="title">
+                                    <p>문의</p>
+                                    <div class="icon">
+                                        <svg height="100%" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M9.28125 0.996094V16.9961" stroke="currentcolor" stroke-linecap="round"></path>
+                                            <path d="M1.28125 8.99609H17.2812" stroke="#143180" stroke-linecap="round"></path>
+                                        </svg>
+                                    </div>
+                                </div>
+                                <ul class="footer-sub">
+                                    <li class="sub-item">
+                                        <a href="">
+                                            마케팅 솔루션 광고문의<br>
+                                            (univ@univ.me)
+                                        </a>
+                                    </li>
+                                    <li class="sub-item">
+                                        <a href="">
+                                            기업 제휴 문의<br>
+                                            (partner@univ.me)
+                                        </a>
+                                    </li>
+                                    <li class="sub-item">
+                                        <a href="">
+                                            채용/인사 관련<br>
+                                            (recruit@univ.me)
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="logo-area">
+                        <a href=""><img src="./assets/img/logo.png" alt=""></a>
+                        <div class="number-box">
+                            <div class="num1">
+                                <strong>대표 전화</strong>
+                                <p>02-735-3800</p>
+                            </div>
+                            <div class="num2">
+                                <strong>결제 문의</strong>
+                                <p>02-735-9523</p>
+                            </div>
+                            <div class="num3">
+                                <strong>팩스</strong>
+                                <p>02-735-0005</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="footer-cc">
+                <div class="cc-left">
+                    <p class="cc">© 2023 DAEHAKNAEIL Corp. All Rights Reserved.
+                    </p>
+                </div>
+                <div class="cc-right">
+                    <div class="sns-box">
+                        <a href="" class="instagram">
+                            <svg height="100%" viewBox="0 0 681 682" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M679.667 200.314C678.071 164.112 672.216 139.224 663.83 117.657C655.179 94.7654 641.869 74.2702 624.431 57.2325C607.393 39.9297 586.763 26.4846 564.136 17.9684C542.445 9.58208 517.686 3.72781 481.485 2.13166C445.012 0.400336 433.434 0 340.93 0C248.426 0 236.848 0.400336 200.511 1.99648C164.309 3.59263 139.42 9.4521 117.859 17.8332C94.9622 26.4846 74.467 39.7945 57.4293 57.2325C40.1264 74.2702 26.6866 94.9006 18.1651 117.527C9.77886 139.224 3.92459 163.977 2.32844 200.179C0.597114 236.651 0.196777 248.229 0.196777 340.733C0.196777 433.237 0.597114 444.816 2.19326 481.153C3.78941 517.354 9.64888 542.243 18.0352 563.809C26.6866 586.701 40.1264 607.196 57.4293 624.234C74.467 641.537 95.0973 654.982 117.724 663.498C139.42 671.884 164.174 677.739 200.381 679.335C236.713 680.936 248.296 681.331 340.8 681.331C433.304 681.331 444.882 680.936 481.219 679.335C517.421 677.739 542.31 671.884 563.871 663.498C609.66 645.795 645.862 609.593 663.565 563.809C671.946 542.113 677.805 517.354 679.402 481.153C680.998 444.816 681.398 433.237 681.398 340.733C681.398 248.229 681.263 236.651 679.667 200.314ZM618.311 478.491C616.845 511.765 611.256 529.734 606.597 541.713C595.149 571.395 571.591 594.952 541.909 606.401C529.93 611.059 511.832 616.648 478.687 618.109C442.751 619.711 431.973 620.106 341.065 620.106C250.158 620.106 239.245 619.711 203.438 618.109C170.163 616.648 152.195 611.059 140.216 606.401C125.445 600.942 112 592.29 101.087 580.977C89.7734 569.929 81.122 556.619 75.6628 541.848C71.0044 529.869 65.4152 511.765 63.9543 478.626C62.3529 442.689 61.9578 431.906 61.9578 340.998C61.9578 250.091 62.3529 239.178 63.9543 203.376C65.4152 170.101 71.0044 152.133 75.6628 140.154C81.122 125.378 89.7734 111.938 101.222 101.02C112.265 89.7066 125.575 81.0552 140.351 75.6012C152.33 70.9428 170.433 65.3536 203.573 63.8875C239.51 62.2913 250.293 61.891 341.195 61.891C432.238 61.891 443.016 62.2913 478.823 63.8875C512.097 65.3536 530.066 70.9428 542.045 75.6012C556.815 81.0552 570.26 89.7066 581.174 101.02C592.487 112.068 601.138 125.378 606.597 140.154C611.256 152.133 616.845 170.231 618.311 203.376C619.907 239.313 620.308 250.091 620.308 340.998C620.308 431.906 619.907 442.554 618.311 478.491ZM340.93 165.709C244.304 165.709 165.905 244.102 165.905 340.734C165.905 437.366 244.304 515.759 340.93 515.759C437.562 515.759 515.955 437.366 515.955 340.734C515.955 244.102 437.562 165.709 340.93 165.709ZM340.93 454.268C278.244 454.268 227.396 403.426 227.396 340.734C227.396 278.042 278.244 227.2 340.93 227.2C403.622 227.2 454.465 278.042 454.465 340.734C454.465 403.426 403.622 454.268 340.93 454.268ZM522.875 199.648C545.445 199.648 563.74 181.352 563.74 158.788C563.74 136.218 545.445 117.928 522.875 117.928C500.311 117.928 482.015 136.218 482.015 158.788C482.015 181.352 500.311 199.648 522.875 199.648Z" fill="currentcolor"></path>
+                            </svg>
+                        </a>
+                        <a href="" class="facebook">
+                            <svg height="100%" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M10.6672 19.4444H1.35444C0.761557 19.4444 0.28125 18.9638 0.28125 18.3712V1.07318C0.28125 0.480381 0.761632 0 1.35444 0H18.6526C19.2453 0 19.7257 0.480381 19.7257 1.07318V18.3712C19.7257 18.9639 19.2452 19.4444 18.6526 19.4444H13.6977V11.9145H16.2251L16.6036 8.97993H13.6977V7.10639C13.6977 6.25678 13.9336 5.67778 15.1519 5.67778L16.7059 5.6771V3.05241C16.4371 3.01665 15.5147 2.93675 14.4415 2.93675C12.201 2.93675 10.6672 4.30432 10.6672 6.81577V8.97993H8.13321V11.9145H10.6672V19.4444Z" fill="currentcolor"></path>
+                            </svg>
+                        </a>
+                        <a href="" class="youtube">
+                            <svg height="100%" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>YouTube</title>
+                                <path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z" fill="currentColor"></path>
+                            </svg>
+                        </a>
+                        <a href="" class="twitter">
+                            <img src="./assets/img/brunch.png" alt="">
+                        </a>
+                    </div>
+                    <p>(주)대학내일 | 사업자등록번호 : 101-86-28789 | 대표이사 김영훈</p>
+                    <address>04156 서울 마포구 독막로 331, 3-7층 (도화동, 마스터즈타워빌딩)</address>
+                </div>
+            </section>
+        </footer>
+    </div>
+    
+</body>
+</html>

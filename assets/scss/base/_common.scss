@@ -1,0 +1,227 @@
+
+body{
+    min-width: 320px;
+    height: 100%;
+    
+}
+
+.blind{
+    position: absolute;
+    width: 1px; height: 1px;
+    overflow: hidden;
+    clip: rect(0,0,0,0);
+    margin: -1px;
+}
+
+
+.body-bg{
+    /* background: linear-gradient(-80deg, #fff,rgba(255,97,44,100%), rgba(255, 183, 28, 0.856), rgb(253, 192, 36),rgba(255,97,44,100%)); */
+    background-image: linear-gradient(-50deg, #FB9224 0%, rgba(255,97,44,100%) 50%, #f0c919 100%);
+    background-size: 300% 300%;
+    animation: gradient 15s ease infinite;
+}
+
+.hidden{
+    overflow: hidden;
+}
+
+
+
+
+
+
+.link-box{
+    display: flex;
+    justify-content: end;
+    margin-top: 50px;
+    font-size: 18px;
+    a{
+        position: relative;
+        overflow: hidden;
+        display: flex;
+        padding: 15px 20px;
+        border-radius: 999px;
+        background: #fff;
+        .link{
+            display: flex;
+            align-items: center;
+            gap: 40px;
+            color: $blue-color;
+            font-weight: 600;
+        }
+        .color{
+            position: absolute;
+            top: 0;
+            right: 100%;
+            width: 110%;
+            padding: 15px 20px;
+            background: #060f75;
+            border-radius: 999px;
+            transition: 0.3s;
+            .link{
+                color: #fff;
+                p{
+                    display: block;
+                }
+                svg{
+                    max-width: 100px;
+                }
+            }
+        }
+       &:hover .color{
+        right: -9%;
+
+       }
+    }
+   
+}
+
+
+.link-box{
+    display: flex;
+    justify-content: start;
+    &.blue{
+        a{
+        background-color: $blue-color;
+
+        .link{
+            color: #fff;
+        }
+        }
+        .color{
+            width: 110%;
+            background-color: #060f75;
+            .link{
+                color: #fff;
+
+            }
+
+        }
+
+    }
+}
+
+
+
+
+@keyframes gradient {
+    0% {
+     background-position: 0% 50%;
+    }
+    50% {
+     background-position: 80% 100%;
+    }
+    100% {
+     background-position: 0% 50%;
+    }
+}
+
+
+
+@keyframes gradient-2 {
+    0% {
+     background-position: 70% 30%;
+    }
+    20%{
+     background-position: 10% 40%;
+    }
+    50% {
+     background-position: 70% 20%;
+    }
+    70%{
+     background-position: 30% 10%;
+    }
+    100% {
+     background-position: 70% 30%;
+    }
+}
+
+@keyframes roll-left {
+    0% {
+        transform: translateY(50%);
+    }
+    100% {
+        transform: translateY(-50%);
+    }
+    
+    }
+
+@keyframes roll-right {
+    0% {
+        transform: translateY(-50%);
+    }
+    100% {
+        transform: translateY(50%);
+    }
+    
+    }
+
+
+@keyframes roll-left-m {
+    0% {
+        transform: translateX(50%);
+    }
+    100% {
+        transform: translateX(-50%);
+    }
+    
+    }
+
+@keyframes roll-right-m {
+    0% {
+        transform: translateX(-50%);
+    }
+    100% {
+        transform: translateX(50%);
+    }
+    
+    }
+
+
+@media (max-width:991px){
+
+    .link-box{
+        font-size: 15px;
+    }
+    
+}
+
+@media (max-width:767px){
+
+    .link-box{
+        font-size: 14px;
+        margin: 0;
+        a{
+            padding: 10px 20px;
+            .link{
+                gap: 13px;
+            }
+            .color{
+                gap: 13px;
+            padding: 10px 20px;
+            }
+        }
+        &.blue{
+            a{
+            padding: 10px 20px;
+            background-color: $blue-color;
+    
+            .link{
+                color: #fff;
+                gap: 13px;
+            }
+            }
+            .color{
+                padding: 10px 20px;
+                background-color: $light-blue;
+                gap: 13px;
+                .link{
+                    color: $blue-color;
+    
+                }
+    
+            }
+    
+        }
+    }
+}
