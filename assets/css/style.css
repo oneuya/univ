@@ -1212,7 +1212,6 @@ body {
 }
 
 .sc-intro {
-  position: relative;
   position: absolute;
   width: 100%;
   top: 0;
